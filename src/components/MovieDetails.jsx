@@ -3,8 +3,6 @@ import axios from 'axios'
 import { useParams } from "react-router-dom"
 import styles from './MovieDetails.module.css'
 import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import BackButton from './BackButton'
 
 

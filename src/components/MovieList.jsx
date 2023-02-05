@@ -41,7 +41,7 @@ function MovieList() {
             setShowLoader(false)
             console.log(response.data);
             setResponseData(response.data.Search);
-            if(response.data.Response == "True"){
+            if(response.data.Response === "True"){
                 setIsApiData(true)
             }
             
@@ -66,7 +66,7 @@ function MovieList() {
     const handleChange = (event) => {
         setSortValue(event.target.value);
         let sortedData;
-        if(event.target.value == 'ascending'){
+        if(event.target.value === 'ascending'){
             sortedData = responseData?.sort((a,b) => {
                 return (a.Year - b.Year)
             })
@@ -126,6 +126,7 @@ function MovieList() {
                                                                 <img
                                                                     className={styles.media}
                                                                     src={elem.Poster}
+                                                                    alt={elem.Title}
                                                                 />
                                                             </div>
                                                             <CardContent>
