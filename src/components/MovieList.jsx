@@ -32,7 +32,7 @@ function MovieList() {
         console.log({params})
         let config = {
             method: 'get',
-            url: `http://www.omdbapi.com/?s=${params.id}&apikey=35b9963c`,
+            url: `https://www.omdbapi.com/?s=${params.id}&apikey=35b9963c`,
             headers: { }
           };
           

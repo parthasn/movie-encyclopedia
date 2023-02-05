@@ -15,7 +15,7 @@ function MovieDetails() {
         // console.log({params})
          let config = {
             method: 'get',
-            url: `http://www.omdbapi.com/?i=${params?.id}&apikey=35b9963c`,
+            url: `https://www.omdbapi.com/?i=${params?.id}&apikey=35b9963c`,
             headers: { }
           };
           
