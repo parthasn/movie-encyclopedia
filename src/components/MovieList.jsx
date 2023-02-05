@@ -93,6 +93,7 @@ function MovieList() {
                             <div className={styles.backButton}>
                                 <BackButton />
                                 <div>
+                                {isApiData ? (
                                     <FormControl variant="outlined" className={styles.formControl}>
                                         <InputLabel id="demo-simple-select-outlined-label">Sort</InputLabel>
                                         <Select
@@ -106,6 +107,7 @@ function MovieList() {
                                         <MenuItem value={'descending'}>Descending</MenuItem>
                                         </Select>
                                     </FormControl>
+                                ) : null}
                                 </div>
                             </div>
                 
