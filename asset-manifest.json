@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/stayflexi-assignment/static/css/main.97e86db4.css",
-    "main.js": "/stayflexi-assignment/static/js/main.d1c9e171.js",
+    "main.js": "/stayflexi-assignment/static/js/main.6062abc3.js",
     "index.html": "/stayflexi-assignment/index.html",
     "main.97e86db4.css.map": "/stayflexi-assignment/static/css/main.97e86db4.css.map",
-    "main.d1c9e171.js.map": "/stayflexi-assignment/static/js/main.d1c9e171.js.map"
+    "main.6062abc3.js.map": "/stayflexi-assignment/static/js/main.6062abc3.js.map"
   },
   "entrypoints": [
     "static/css/main.97e86db4.css",
-    "static/js/main.d1c9e171.js"
+    "static/js/main.6062abc3.js"
   ]
 }
