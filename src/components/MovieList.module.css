@@ -1,0 +1,77 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.gridRoot{
+    flex-grow: 1;
+    padding: 30px 0px 30px 0px;
+}
+
+.cardRoot{
+    width: 350px;
+    height: 650px;
+}
+
+.imageDiv{
+    height: 500px;
+    border: 1px solid black;
+}
+
+.media{
+    height: 100%;
+    width: 350px;
+    object-fit: fill;
+}
+
+.movieTitle{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.releaseYear{
+    margin-top: 8px;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+.errorDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.errorCardContainer{
+    /* width: 50%; */
+    padding: 10px;
+}
+
+.errorContent{
+    width: 100%;
+}
+
+.formControl{
+    min-width: 350px;
+    padding: 8px;
+}
+
+.backButtonContainer{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.backButton{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

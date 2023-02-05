@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.paper{
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    max-width: 1200px;
+}
+.input{
+    margin-left: 8px;
+    flex: 1;
+}
+
+.iconButton{
+    padding: 10px;
+}
+
+@media only screen and (min-width: 700px) {
+
+    .paper{
+        padding: 2px 4px;
+        display: flex;
+        align-items: center;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+
+    .paper{
+        padding: 2px 4px;
+        display: flex;
+        align-items: center;
+        width: 300px;
+    }
+
+}
